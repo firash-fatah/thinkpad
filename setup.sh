@@ -2,7 +2,7 @@
 # Setup tampilan login SSH: Starship + fastfetch bertema ThinkPad (Ubuntu 24.04)
 # Pakai:  bash setup.sh      atau      curl -fsSL https://raw.githubusercontent.com/firash-fatah/thinkpad-setup/refs/heads/main/setup.sh | bash
 # Ubah pengaturan lewat environment, contoh:
-#   curl -fsSL https://raw.githubusercontent.com/firash-fatah/thinkpad-setup/refs/heads/main/setup.sh | LOGO_TOP=4 INFO_TOP=1 AUTORUN=1 TIMEZONE=Asia/Jakarta bash
+#   curl -fsSL https://raw.githubusercontent.com/firash-fatah/thinkpad/refs/heads/main/setup.sh | LOGO_TOP=4 INFO_TOP=1 AUTORUN=1 TIMEZONE=Asia/Jakarta bash
 set -euo pipefail
 
 LOGO_TOP="${LOGO_TOP:-5}"     # baris kosong di atas logo
